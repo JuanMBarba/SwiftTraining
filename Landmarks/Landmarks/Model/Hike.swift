@@ -22,7 +22,7 @@ struct Hike: Codable, Hashable, Identifiable {
     }
     
     struct Observation: Codable, Hashable {
-        var distnaceFromStart: Double
+        var distanceFromStart: Double
         
         var elevation: Range<Double>
         var pace: Range<Double>
